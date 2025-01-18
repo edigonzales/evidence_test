@@ -1,0 +1,8 @@
+# This file was automatically generated
+name: mytrino
+type: trino
+options:
+  host: localhost
+  port: 8080
+  ssl: false
+  user: admin@localhost
