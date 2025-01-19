@@ -22,6 +22,27 @@ Beim Erstellen einer neuen Data Source ist es bisschen schräg, dass man Name un
 - Attributname werden auch beautified (_ entfernt. Grossschreibung.)
 - Formatting: excel style...
 - Logo?
+- /Users/stefan/sources/evidence_test/my-project/.evidence/template/static/data/mytrino/steuerfuesse -> zum Query entwickeln in dbeaver. debuggen scheint mir so einfacher.
+- Cast as varchar??? wenn postgres. scheint mir komisch. aber sowieos ggf. tricky wenn man exotische Datentypen verwendet.
+- geojson static habe ich noch nicht gelöst (habs händisch nach static in .evidence kopiert).
+
+
+CREATE VIEW 
+	agi_hoheitsgrenzen_pub_v1.v_hoheitsgrenzen_gemeindegrenze_4326
+AS 
+SELECT
+	t_id, 
+	t_ili_tid,
+	gemeindename,
+	ST_Transform(geometrie, 4326) AS geometrie,
+	ST_AsGeoJson(ST_Transform(geometrie, 4326)) AS geometrie_geojson,
+	bfs_gemeindenummer,
+	bezirksname,
+	kantonsname
+FROM 
+	agi_hoheitsgrenzen_pub_v1.hoheitsgrenzen_gemeindegrenze 
+;
+
 
 ```
 ╰─ npm run sources                                                                                                                                                                                                                      ─╯
