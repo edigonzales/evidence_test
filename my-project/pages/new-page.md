@@ -3,9 +3,6 @@ title: Nach Bahrenfeld im Bus
 sidebar_position: 1
 ---
 
-## Nach Bahrenfeld im Bus
-
-
 ### Steuerfuesse
 
 ```my_query

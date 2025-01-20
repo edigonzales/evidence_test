@@ -3,7 +3,7 @@ title: Won't get fooled again
 sidebar_position: 2
 ---
 
-## Won't don't get fooled again
+## Hallo Welt
 
 
 ```sql unique_gemeinden
