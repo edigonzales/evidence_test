@@ -1,8 +1,10 @@
 ---
 title: Baba O'Riley
+lightLogo: /Logo.png
 sidebar_position: 3
 ---
 
+<!--
 ```my_queryXXXXX
 SELECT
     JSON_OBJECT(
@@ -22,6 +24,7 @@ SELECT
 FROM 
     mytrino.mygeojson
 ```
+-->
 
 ```sql my_query
 SELECT
@@ -38,5 +41,8 @@ WHERE
     geoJsonUrl='/kanton_solothurn.geojson'
     geoId=gemeindename
     value=steuerfuss_in_prozent
-    height=600
+    legend=false
+    showTooltip=false
+    title='Steuerfüsse (natürliche Personen)'
+    attribution='Kanton Solothurn'
 />

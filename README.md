@@ -25,6 +25,7 @@ Beim Erstellen einer neuen Data Source ist es bisschen schräg, dass man Name un
 - /Users/stefan/sources/evidence_test/my-project/.evidence/template/static/data/mytrino/steuerfuesse -> zum Query entwickeln in dbeaver. debuggen scheint mir so einfacher.
 - Cast as varchar??? wenn postgres. scheint mir komisch. aber sowieos ggf. tricky wenn man exotische Datentypen verwendet.
 - geojson static habe ich noch nicht gelöst (habs händisch nach static in .evidence kopiert).
+- kleiner nachteil: duckdb.wasm kommt immer mit. sind 80MB
 
 
 CREATE VIEW 

@@ -1,5 +1,6 @@
 ---
 title: Welcome to Evidence
+hide_header: true
 ---
 
 <Details title='How to edit this page'>
