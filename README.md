@@ -16,6 +16,7 @@ Achtung: Config-Files sind unter `/Users/stefan/tmp/trino`.
 
 Beim Erstellen einer neuen Data Source ist es bisschen schräg, dass man Name unt Type eintippen muss und dann Enter drücken, damit das Formular mit den Verbindungsparameter erscheint!?
 
+- vor- und nachteil: nicht realtime.
 - Hide/show queries
 - Deployment to prod
 - Automatismen: new-page.md wird zu New Page im Toc.

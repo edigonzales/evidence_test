@@ -36,12 +36,13 @@ order by
   jahr,gemeinde
 ```
 
+<!--
 <DataTable data={query_steuerfuesse_filtered_by_gemeinden} rows=10>
    <Column id=jahr title="Jahr" fmt='###0' />
    <Column id=gemeinde />
    <Column id=steuerfuss_in_prozent />
 </DataTable>
-
+-->
 <LineChart 
     data={query_steuerfuesse_filtered_by_gemeinden}
     x=jahr
